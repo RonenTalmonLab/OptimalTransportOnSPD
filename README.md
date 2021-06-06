@@ -33,7 +33,8 @@ The code was developed and tested in Matlab R2019a.
 * The ’MainErpPlot.m’ script applies the proposed algorithm for domain adaptation to the data. The script plots
   the t-SNE representation before and after the adaptation similarly to the figures in the paper and trains a classifier
   accordingly.
-* For computing the appended covariance features, we used this this P300 detector.
+* For computing the appended covariance features, we used this P300 detector:
+  https://www.epfl.ch/labs/mmspg/research/page-58317-en-html/bci-2/bci_datasets/
   One can download it and replace line 23 in the script.
 * In order to create the 'Subject' mat files, one should add the following code to the file 'classification_scores.py' in GIPSA:
   * import scipy.io as sio
